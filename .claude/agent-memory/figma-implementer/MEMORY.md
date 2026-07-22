@@ -1,0 +1,12 @@
+- [Figma MCP 인증/연결 이슈](project_figma_access.md) — IRscndBxHJbK2wgkP6WCjP는 owner 파일인데도 edit-access 에러; MCP 로그인 계정 불일치 의심
+- [저장소 실제 빌드/테스트 명령어](project_test_infra.md) — typecheck/test 스크립트 없음(tsc -b 대체), lint는 oxlint, vitest는 storybook+unit 두 프로젝트로 Component.test.tsx도 자동 수집됨
+- [Button 노드(781:5374) 구조 조사](project_button_node_781_5374.md) — 사이즈별 3개 분리 컴포넌트셋, style 오탈자, Large 20px 패딩 스페이싱 누락, 아이콘은 placeholder 슬롯
+- [Category/NavigationBar 노드 조사](project_category_navbar_nodes.md) — 6px/10px 누락 spacing, inline border:"none" CSSOM 직렬화 함정, drop-shadow 미반영 선례
+- [아이콘 path 중복 발견(wrench/speaker)](project_icon_duplicate_paths.md) — Chip 아이콘이 design/notification과 path 100% 동일, get_design_context는 벡터를 img로 반환하므로 asset URL curl 필요
+- [Chip 컴포넌트 구현 완료](project_chip_component.md) — category/notice 2종, 아이콘 색상은 컨테이너 color로 currentColor 상속시켜 처리
+- [PostCardStats 구현 완료](project_postcardstats_component.md) — 6px spacing은 실제 코드상 "올림 반올림" 관례로 처리, eye-on/heart_empty 아이콘 실측 재확인
+- [PostCard 구현 완료](project_postcard_component.md) — chips 배열형 API, preview 2줄 line-clamp, 루트 840px 고정은 모두 사용자 확정 사항
+- [Checkbox 구현 완료](project_checkbox_component.md) — 2-state(state3 잔여 레이어 무시), CSS peer-checked 대신 JS 조건부 렌더링으로 기존 컨벤션 일치, input[type=checkbox] 실제 래핑
+- [TitleInput 구현 완료](project_titleinput_component.md) — focus는 CSS 의사클래스로 자동 처리(prop 아님), error는 명시적 prop, error가 focus보다 우선, w-full 루트 너비 사용자 확정
+- [Post 섹션 5개 컴포넌트 구현 완료](project_post_section_atoms.md) — 781:5936 하위 node-id 지도, 840px w-full 정책, ContentInputContainer state는 imageType 유무로 파생, PostFilterHeader는 Button+Toolbar 재조합
+- [북마크 아이콘 부재 확인](project_bookmark_icon_absent.md) — Icon 19종 + 전체 페이지 406개 노드명 검색 결과 bookmark/save 관련 아이콘·컴포넌트 전무

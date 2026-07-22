@@ -1,0 +1,46 @@
+{
+  "color": {
+    "button": {
+      "warning": {
+        "bg": { "value": "#fc2a55", "type": "color" },
+        "text": { "value": "#ffffff", "type": "color" }
+      },
+      "warning-light": {
+        "bg": { "value": "#fffbfc", "type": "color" },
+        "text": { "value": "#fc2a55", "type": "color" }
+      },
+      "mono": {
+        "bg": { "value": "#262626", "type": "color" },
+        "text": { "value": "#ffffff", "type": "color" }
+      },
+      "mono-light": {
+        "bg": { "value": "#f5f7fa", "type": "color" },
+        "text": { "value": "#262626", "type": "color" }
+      },
+      "core": {
+        "bg": { "value": "#1289f6", "type": "color" },
+        "text": { "value": "#ffffff", "type": "color" }
+      },
+      "core-light": {
+        "bg": { "value": "#f1f8fe", "type": "color" },
+        "text": { "value": "#1289f6", "type": "color" }
+      },
+      "outline": {
+        "bg": { "value": "#ffffff", "type": "color" },
+        "border": { "value": "#d1d5db", "type": "color" },
+        "text": { "value": "#262626", "type": "color" }
+      }
+    }
+  },
+  "borderRadius": {
+    "button": { "value": "8px", "type": "borderRadius" }
+  },
+  "typography": {
+    "button": {
+      "fontFamily": { "value": "Pretendard", "type": "fontFamily" },
+      "fontWeight": { "value": "700", "type": "fontWeight" },
+      "fontSize": { "value": "16px", "type": "fontSize" },
+      "lineHeight": { "value": "24px", "type": "lineHeight" }
+    }
+  }
+}
