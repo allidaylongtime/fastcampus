@@ -133,216 +133,76 @@
   --color-content-strong: var(--color-primitive-gray-900);
   --color-content-default: var(--color-primitive-gray-800);
   --color-content-muted: var(--color-primitive-gray-700);
-  --typography-display-lg-bold-font-family: var(
-    --typography-primitive-font-family-base
-  );
-  --typography-display-lg-bold-font-weight: var(
-    --typography-primitive-font-weight-bold
-  );
-  --typography-display-lg-bold-font-size: var(
-    --typography-primitive-font-size-32
-  );
-  --typography-display-lg-bold-line-height: var(
-    --typography-primitive-line-height-48
-  );
-  --typography-display-lg-regular-font-family: var(
-    --typography-primitive-font-family-base
-  );
-  --typography-display-lg-regular-font-weight: var(
-    --typography-primitive-font-weight-regular
-  );
-  --typography-display-lg-regular-font-size: var(
-    --typography-primitive-font-size-32
-  );
-  --typography-display-lg-regular-line-height: var(
-    --typography-primitive-line-height-48
-  );
-  --typography-display-sm-bold-font-family: var(
-    --typography-primitive-font-family-base
-  );
-  --typography-display-sm-bold-font-weight: var(
-    --typography-primitive-font-weight-bold
-  );
-  --typography-display-sm-bold-font-size: var(
-    --typography-primitive-font-size-24
-  );
-  --typography-display-sm-bold-line-height: var(
-    --typography-primitive-line-height-36
-  );
-  --typography-display-sm-regular-font-family: var(
-    --typography-primitive-font-family-base
-  );
-  --typography-display-sm-regular-font-weight: var(
-    --typography-primitive-font-weight-regular
-  );
-  --typography-display-sm-regular-font-size: var(
-    --typography-primitive-font-size-24
-  );
-  --typography-display-sm-regular-line-height: var(
-    --typography-primitive-line-height-36
-  );
-  --typography-title-lg-bold-font-family: var(
-    --typography-primitive-font-family-base
-  );
-  --typography-title-lg-bold-font-weight: var(
-    --typography-primitive-font-weight-bold
-  );
-  --typography-title-lg-bold-font-size: var(
-    --typography-primitive-font-size-20
-  );
-  --typography-title-lg-bold-line-height: var(
-    --typography-primitive-line-height-30
-  );
-  --typography-title-lg-regular-font-family: var(
-    --typography-primitive-font-family-base
-  );
-  --typography-title-lg-regular-font-weight: var(
-    --typography-primitive-font-weight-regular
-  );
-  --typography-title-lg-regular-font-size: var(
-    --typography-primitive-font-size-20
-  );
-  --typography-title-lg-regular-line-height: var(
-    --typography-primitive-line-height-30
-  );
-  --typography-title-sm-bold-font-family: var(
-    --typography-primitive-font-family-base
-  );
-  --typography-title-sm-bold-font-weight: var(
-    --typography-primitive-font-weight-bold
-  );
-  --typography-title-sm-bold-font-size: var(
-    --typography-primitive-font-size-18
-  );
-  --typography-title-sm-bold-line-height: var(
-    --typography-primitive-line-height-27
-  );
-  --typography-title-sm-regular-font-family: var(
-    --typography-primitive-font-family-base
-  );
-  --typography-title-sm-regular-font-weight: var(
-    --typography-primitive-font-weight-regular
-  );
-  --typography-title-sm-regular-font-size: var(
-    --typography-primitive-font-size-18
-  );
-  --typography-title-sm-regular-line-height: var(
-    --typography-primitive-line-height-27
-  );
-  --typography-body-lg-bold-font-family: var(
-    --typography-primitive-font-family-base
-  );
-  --typography-body-lg-bold-font-weight: var(
-    --typography-primitive-font-weight-bold
-  );
+  --typography-display-lg-bold-font-family: var(--typography-primitive-font-family-base);
+  --typography-display-lg-bold-font-weight: var(--typography-primitive-font-weight-bold);
+  --typography-display-lg-bold-font-size: var(--typography-primitive-font-size-32);
+  --typography-display-lg-bold-line-height: var(--typography-primitive-line-height-48);
+  --typography-display-lg-regular-font-family: var(--typography-primitive-font-family-base);
+  --typography-display-lg-regular-font-weight: var(--typography-primitive-font-weight-regular);
+  --typography-display-lg-regular-font-size: var(--typography-primitive-font-size-32);
+  --typography-display-lg-regular-line-height: var(--typography-primitive-line-height-48);
+  --typography-display-sm-bold-font-family: var(--typography-primitive-font-family-base);
+  --typography-display-sm-bold-font-weight: var(--typography-primitive-font-weight-bold);
+  --typography-display-sm-bold-font-size: var(--typography-primitive-font-size-24);
+  --typography-display-sm-bold-line-height: var(--typography-primitive-line-height-36);
+  --typography-display-sm-regular-font-family: var(--typography-primitive-font-family-base);
+  --typography-display-sm-regular-font-weight: var(--typography-primitive-font-weight-regular);
+  --typography-display-sm-regular-font-size: var(--typography-primitive-font-size-24);
+  --typography-display-sm-regular-line-height: var(--typography-primitive-line-height-36);
+  --typography-title-lg-bold-font-family: var(--typography-primitive-font-family-base);
+  --typography-title-lg-bold-font-weight: var(--typography-primitive-font-weight-bold);
+  --typography-title-lg-bold-font-size: var(--typography-primitive-font-size-20);
+  --typography-title-lg-bold-line-height: var(--typography-primitive-line-height-30);
+  --typography-title-lg-regular-font-family: var(--typography-primitive-font-family-base);
+  --typography-title-lg-regular-font-weight: var(--typography-primitive-font-weight-regular);
+  --typography-title-lg-regular-font-size: var(--typography-primitive-font-size-20);
+  --typography-title-lg-regular-line-height: var(--typography-primitive-line-height-30);
+  --typography-title-sm-bold-font-family: var(--typography-primitive-font-family-base);
+  --typography-title-sm-bold-font-weight: var(--typography-primitive-font-weight-bold);
+  --typography-title-sm-bold-font-size: var(--typography-primitive-font-size-18);
+  --typography-title-sm-bold-line-height: var(--typography-primitive-line-height-27);
+  --typography-title-sm-regular-font-family: var(--typography-primitive-font-family-base);
+  --typography-title-sm-regular-font-weight: var(--typography-primitive-font-weight-regular);
+  --typography-title-sm-regular-font-size: var(--typography-primitive-font-size-18);
+  --typography-title-sm-regular-line-height: var(--typography-primitive-line-height-27);
+  --typography-body-lg-bold-font-family: var(--typography-primitive-font-family-base);
+  --typography-body-lg-bold-font-weight: var(--typography-primitive-font-weight-bold);
   --typography-body-lg-bold-font-size: var(--typography-primitive-font-size-16);
-  --typography-body-lg-bold-line-height: var(
-    --typography-primitive-line-height-24
-  );
-  --typography-body-lg-regular-font-family: var(
-    --typography-primitive-font-family-base
-  );
-  --typography-body-lg-regular-font-weight: var(
-    --typography-primitive-font-weight-regular
-  );
-  --typography-body-lg-regular-font-size: var(
-    --typography-primitive-font-size-16
-  );
-  --typography-body-lg-regular-line-height: var(
-    --typography-primitive-line-height-24
-  );
-  --typography-body-sm-bold-font-family: var(
-    --typography-primitive-font-family-base
-  );
-  --typography-body-sm-bold-font-weight: var(
-    --typography-primitive-font-weight-bold
-  );
+  --typography-body-lg-bold-line-height: var(--typography-primitive-line-height-24);
+  --typography-body-lg-regular-font-family: var(--typography-primitive-font-family-base);
+  --typography-body-lg-regular-font-weight: var(--typography-primitive-font-weight-regular);
+  --typography-body-lg-regular-font-size: var(--typography-primitive-font-size-16);
+  --typography-body-lg-regular-line-height: var(--typography-primitive-line-height-24);
+  --typography-body-sm-bold-font-family: var(--typography-primitive-font-family-base);
+  --typography-body-sm-bold-font-weight: var(--typography-primitive-font-weight-bold);
   --typography-body-sm-bold-font-size: var(--typography-primitive-font-size-14);
-  --typography-body-sm-bold-line-height: var(
-    --typography-primitive-line-height-21
-  );
-  --typography-body-sm-regular-font-family: var(
-    --typography-primitive-font-family-base
-  );
-  --typography-body-sm-regular-font-weight: var(
-    --typography-primitive-font-weight-regular
-  );
-  --typography-body-sm-regular-font-size: var(
-    --typography-primitive-font-size-14
-  );
-  --typography-body-sm-regular-line-height: var(
-    --typography-primitive-line-height-21
-  );
-  --typography-caption-lg-bold-font-family: var(
-    --typography-primitive-font-family-base
-  );
-  --typography-caption-lg-bold-font-weight: var(
-    --typography-primitive-font-weight-bold
-  );
-  --typography-caption-lg-bold-font-size: var(
-    --typography-primitive-font-size-13
-  );
-  --typography-caption-lg-bold-line-height: var(
-    --typography-primitive-line-height-20
-  );
-  --typography-caption-lg-medium-font-family: var(
-    --typography-primitive-font-family-base
-  );
-  --typography-caption-lg-medium-font-weight: var(
-    --typography-primitive-font-weight-medium
-  );
-  --typography-caption-lg-medium-font-size: var(
-    --typography-primitive-font-size-13
-  );
-  --typography-caption-lg-medium-line-height: var(
-    --typography-primitive-line-height-20
-  );
-  --typography-caption-lg-regular-font-family: var(
-    --typography-primitive-font-family-base
-  );
-  --typography-caption-lg-regular-font-weight: var(
-    --typography-primitive-font-weight-regular
-  );
-  --typography-caption-lg-regular-font-size: var(
-    --typography-primitive-font-size-13
-  );
-  --typography-caption-lg-regular-line-height: var(
-    --typography-primitive-line-height-20
-  );
-  --typography-caption-sm-bold-font-family: var(
-    --typography-primitive-font-family-base
-  );
-  --typography-caption-sm-bold-font-weight: var(
-    --typography-primitive-font-weight-bold
-  );
-  --typography-caption-sm-bold-font-size: var(
-    --typography-primitive-font-size-12
-  );
-  --typography-caption-sm-bold-line-height: var(
-    --typography-primitive-line-height-18
-  );
-  --typography-caption-sm-medium-font-family: var(
-    --typography-primitive-font-family-base
-  );
-  --typography-caption-sm-medium-font-weight: var(
-    --typography-primitive-font-weight-medium
-  );
-  --typography-caption-sm-medium-font-size: var(
-    --typography-primitive-font-size-12
-  );
-  --typography-caption-sm-medium-line-height: var(
-    --typography-primitive-line-height-18
-  );
-  --typography-caption-sm-regular-font-family: var(
-    --typography-primitive-font-family-base
-  );
-  --typography-caption-sm-regular-font-weight: var(
-    --typography-primitive-font-weight-regular
-  );
-  --typography-caption-sm-regular-font-size: var(
-    --typography-primitive-font-size-12
-  );
-  --typography-caption-sm-regular-line-height: var(
-    --typography-primitive-line-height-18
-  );
+  --typography-body-sm-bold-line-height: var(--typography-primitive-line-height-21);
+  --typography-body-sm-regular-font-family: var(--typography-primitive-font-family-base);
+  --typography-body-sm-regular-font-weight: var(--typography-primitive-font-weight-regular);
+  --typography-body-sm-regular-font-size: var(--typography-primitive-font-size-14);
+  --typography-body-sm-regular-line-height: var(--typography-primitive-line-height-21);
+  --typography-caption-lg-bold-font-family: var(--typography-primitive-font-family-base);
+  --typography-caption-lg-bold-font-weight: var(--typography-primitive-font-weight-bold);
+  --typography-caption-lg-bold-font-size: var(--typography-primitive-font-size-13);
+  --typography-caption-lg-bold-line-height: var(--typography-primitive-line-height-20);
+  --typography-caption-lg-medium-font-family: var(--typography-primitive-font-family-base);
+  --typography-caption-lg-medium-font-weight: var(--typography-primitive-font-weight-medium);
+  --typography-caption-lg-medium-font-size: var(--typography-primitive-font-size-13);
+  --typography-caption-lg-medium-line-height: var(--typography-primitive-line-height-20);
+  --typography-caption-lg-regular-font-family: var(--typography-primitive-font-family-base);
+  --typography-caption-lg-regular-font-weight: var(--typography-primitive-font-weight-regular);
+  --typography-caption-lg-regular-font-size: var(--typography-primitive-font-size-13);
+  --typography-caption-lg-regular-line-height: var(--typography-primitive-line-height-20);
+  --typography-caption-sm-bold-font-family: var(--typography-primitive-font-family-base);
+  --typography-caption-sm-bold-font-weight: var(--typography-primitive-font-weight-bold);
+  --typography-caption-sm-bold-font-size: var(--typography-primitive-font-size-12);
+  --typography-caption-sm-bold-line-height: var(--typography-primitive-line-height-18);
+  --typography-caption-sm-medium-font-family: var(--typography-primitive-font-family-base);
+  --typography-caption-sm-medium-font-weight: var(--typography-primitive-font-weight-medium);
+  --typography-caption-sm-medium-font-size: var(--typography-primitive-font-size-12);
+  --typography-caption-sm-medium-line-height: var(--typography-primitive-line-height-18);
+  --typography-caption-sm-regular-font-family: var(--typography-primitive-font-family-base);
+  --typography-caption-sm-regular-font-weight: var(--typography-primitive-font-weight-regular);
+  --typography-caption-sm-regular-font-size: var(--typography-primitive-font-size-12);
+  --typography-caption-sm-regular-line-height: var(--typography-primitive-line-height-18);
 }
